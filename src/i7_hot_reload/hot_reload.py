@@ -4,7 +4,7 @@ from pathlib import Path
 
 def hot_reload_module_from_cwd(module_name: str):
     """
-    Import or reload a Python module from the current working directory.
+    Import or reload a Python module from the CWD.
 
     This function performs a "hot reload" of a module — reloading it to apply any
     recently saved code changes without restarting the kernel or Python interpreter.

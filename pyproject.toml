@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "i7_hot_reload"
 version = "1.0.0"
 authors = [{ name = "Mahdi Mir", email = "imahdimir@gmail.com" }]
-description = "hot reloading modules in Python"
+description = "Import or reload a Python module from the CWD"
 readme = "README.md"
 license = { file = "LICENSE" }
 dependencies = [
